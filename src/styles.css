@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
