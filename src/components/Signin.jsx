@@ -83,7 +83,7 @@ function Signin() {
         if (
           (!value ||
             !/^(\+?\d{1,3}[-.\s]?)?(\(?\d{3}\)?[-.\s]?)?[\d\s]{7,14}$/.test(
-              value
+              value,
             )) &&
           touched.phoneNumber
         ) {
@@ -237,7 +237,7 @@ function Signin() {
               component="div"
               sx={{ textAlign: "center" }}
             >
-              Sign In
+              Job Application
             </Typography>
             <form onSubmit={handleSubmit}>
               <TextField
